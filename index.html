@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AMEEN PASHA — Graphic Designer &amp; VFX Artist</title>
+  <meta name="description" content="AMEEN PASHA — graphic designer and VFX artist. A multidisciplinary visual creative working in graphic design, visual effects, video editing, motion design, videography and content creation.">
+  <meta name="author" content="Ameen Pasha">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='34' text-anchor='middle' fill='%23f5f5f5'%3EA%3C/text%3E%3C/svg%3E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AMEEN PASHA — Graphic Designer &amp; VFX Artist">
+  <meta property="og:description" content="Visual creative — graphic design, VFX, video editing, motion design and videography.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Ameen Pasha","jobTitle":"Graphic Designer & VFX Artist","description":"Visual creative, videographer and content creator."}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/ameen-hero-web.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="AMEEN PASHA — home">AMEEN PASHA</a>
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <canvas id="ambient" aria-hidden="true"></canvas>
+
+  <!-- ============ CINEMATIC STAGE (pinned) ============ -->
+  <section class="stage" id="top" aria-label="Introduction">
+    <div class="stage__pin" id="stagePin">
+
+      <div class="stage__portrait" id="portraitWrap">
+        <picture>
+          <source srcset="assets/images/ameen-hero-web.webp" type="image/webp">
+          <img id="portrait"
+               src="assets/images/ameen-hero-web.jpg"
+               alt="Portrait of Ameen Pasha in a black cap and sunglasses, operating a cinema camera on a gimbal"
+               width="1199" height="1312" decoding="async" fetchpriority="high">
+        </picture>
+      </div>
+
+      <canvas id="sand" aria-hidden="true"></canvas>
+      <div class="stage__vignette" aria-hidden="true"></div>
+
+      <div class="hero" id="heroText">
+        <p class="hero__eyebrow"><span>Visual Creative</span></p>
+        <h1 class="hero__name" aria-label="AMEEN PASHA">
+          <span class="hero__line hero__line--a"><span class="hero__word">AMEEN</span></span>
+          <span class="hero__line hero__line--b"><span class="hero__word">PASHA</span></span>
+        </h1>
+        <p class="hero__role">Graphic Designer <em>&amp;</em> VFX Artist</p>
+        <div class="hero__cue" id="scrollCue" aria-hidden="true">
+          <span>Scroll</span><i></i>
+        </div>
+      </div>
+
+      <div class="world" id="world">
+        <p class="world__kicker">Chapter I &nbsp;—&nbsp; Memory</p>
+        <h2 class="world__title" id="worldTitle">
+          <span class="line"><span>A visual storyteller,</span></span>
+          <span class="line"><span>built from light,</span></span>
+          <span class="line"><span><em>motion</em> and frame.</span></span>
+        </h2>
+        <p class="world__sub">Graphic design &nbsp;·&nbsp; Visual effects &nbsp;·&nbsp; Motion &nbsp;·&nbsp; Film</p>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="aboutTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>01 — About</p>
+        <div class="about__grid">
+          <h2 class="display" id="aboutTitle" data-split>I make images move, and moments last.</h2>
+          <div class="about__body">
+            <p data-reveal>I am a multidisciplinary visual creative specializing in graphic design, visual effects, video editing, motion design, videography and creative content production.</p>
+            <p data-reveal>My work begins with a simple belief: every frame should say something. I approach each project as a visual storyteller — combining design thinking with technical craft, from composing a single image to compositing a full cinematic shot.</p>
+            <p data-reveal>Behind the screen and behind the lens, I am driven by a passion for filmmaking and the quiet detail that makes visuals feel cinematic.</p>
+            <dl class="about__meta" data-reveal>
+              <div><dt>Profession</dt><dd>Graphic Designer &amp; VFX Artist</dd></div>
+              <div><dt>Identity</dt><dd>Visual Creative</dd></div>
+              <div><dt>Also</dt><dd>Videographer · Content Creator</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="expTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>02 — Experience</p>
+        <h2 class="display display--sm" id="expTitle" data-split>Professional journey</h2>
+
+        <ol class="timeline" id="timeline">
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__date">Present</p>
+            <div class="timeline__card">
+              <h3>MAKKAH HYPERMARKET — Saudi Arabia</h3>
+              <p>Video Editor · Content Creator · Graphic Designer</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__date">2025 — June 08, 2026</p>
+            <div class="timeline__card">
+              <h3>FLAG SPORTS CLOTHING STUDIO</h3>
+              <p>Graphic Designer</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__date">2024 — 2025</p>
+            <div class="timeline__card">
+              <h3>YAKKA SPORTS</h3>
+              <p>Graphic Designer &amp; 2D Motion Designer</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__date">June 2023 — June 2024</p>
+            <div class="timeline__card">
+              <h3>FUTURE WORKS</h3>
+              <p>VFX Paint Prep Artist</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__date">2025 — Present</p>
+            <div class="timeline__card">
+              <h3>FREELANCE VIDEO EDITING</h3>
+              <p>Wedding Films · Promotional Videos · Event Shoots</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education" aria-labelledby="eduTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>03 — Education</p>
+        <h2 class="display display--sm" id="eduTitle" data-split>Learning the craft</h2>
+
+        <div class="edu">
+          <article class="edu__row" data-reveal>
+            <p class="edu__years">2022 — 2023</p>
+            <h3>Diploma in Multimedia VFX</h3>
+            <p class="edu__place">Digital Curve, Nilambur</p>
+          </article>
+          <article class="edu__row" data-reveal>
+            <p class="edu__years">2019 — 2020</p>
+            <h3>Higher Secondary</h3>
+            <p class="edu__place">GHSS Eranhimangad</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS / SOFTWARE ============ -->
+    <section class="section" id="skills" aria-labelledby="skillsTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>04 — Toolkit</p>
+        <h2 class="display display--sm" id="skillsTitle" data-split>Software &amp; skills</h2>
+
+        <div class="toolkit">
+          <div>
+            <h3 class="mini" data-reveal>Software</h3>
+            <ul class="software" id="software">
+              <li tabindex="0"><b aria-hidden="true">Ps</b><span>Adobe Photoshop</span></li>
+              <li tabindex="0"><b aria-hidden="true">Ai</b><span>Adobe Illustrator</span></li>
+              <li tabindex="0"><b aria-hidden="true">Ae</b><span>Adobe After Effects</span></li>
+              <li tabindex="0"><b aria-hidden="true">Cd</b><span>CorelDRAW</span></li>
+              <li tabindex="0"><b aria-hidden="true">Cc</b><span>CapCut</span></li>
+              <li tabindex="0"><b aria-hidden="true">Mp</b><span>Mocha Pro</span></li>
+              <li tabindex="0"><b aria-hidden="true">Nk</b><span>Nuke</span></li>
+              <li tabindex="0"><b aria-hidden="true">Sl</b><span>Silhouette</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="mini" data-reveal>Professional skills</h3>
+            <ul class="skills" id="skillList">
+              <li><span>01</span>Video Editing</li>
+              <li><span>02</span>Graphic Design</li>
+              <li><span>03</span>Visual Effects</li>
+              <li><span>04</span>Motion Graphics</li>
+              <li><span>05</span>Leadership</li>
+              <li><span>06</span>Communication</li>
+              <li><span>07</span>Decision Making</li>
+              <li><span>08</span>Creative Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services" aria-labelledby="servTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>05 — Services</p>
+        <h2 class="display display--sm" id="servTitle" data-split>What I do</h2>
+
+        <ul class="services">
+          <li class="service" tabindex="0">
+            <span class="service__n">01</span>
+            <h3>Graphic Design</h3>
+            <p>Identity, layout and visual communication crafted with clarity and intent.</p>
+          </li>
+          <li class="service" tabindex="0">
+            <span class="service__n">02</span>
+            <h3>Video Editing</h3>
+            <p>Story-led edits with rhythm, pacing and polish across formats and platforms.</p>
+          </li>
+          <li class="service" tabindex="0">
+            <span class="service__n">03</span>
+            <h3>VFX &amp; Compositing</h3>
+            <p>Tracking, roto and compositing that blend digital elements seamlessly into footage.</p>
+          </li>
+          <li class="service" tabindex="0">
+            <span class="service__n">04</span>
+            <h3>Motion Design</h3>
+            <p>Animated graphics and titles that bring ideas to life with movement.</p>
+          </li>
+          <li class="service" tabindex="0">
+            <span class="service__n">05</span>
+            <h3>Videography</h3>
+            <p>On-location filming with a cinematic eye, from stabilised movement to composed frames.</p>
+          </li>
+          <li class="service" tabindex="0">
+            <span class="service__n">06</span>
+            <h3>Content Creation</h3>
+            <p>Visual content produced end to end for brands, products and social channels.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work" aria-labelledby="workTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>06 — Selected Works</p>
+        <h2 class="display display--sm" id="workTitle" data-split>Portfolio</h2>
+
+        <div class="filters" id="filters" role="group" aria-label="Filter works by category"></div>
+        <div class="gallery" id="gallery" aria-live="polite"></div>
+        <p class="gallery__empty" id="galleryEmpty" hidden>Selected work in this category is being curated.</p>
+      </div>
+    </section>
+
+    <!-- ============ CAMERA / EQUIPMENT ============ -->
+    <section class="section camera" id="camera" aria-labelledby="camTitle">
+      <div class="wrap camera__grid">
+        <figure class="camera__figure" id="cameraFigure">
+          <img src="assets/images/ameen-hero-900.jpg"
+               alt="Ameen Pasha framing a shot with a cinema camera on a gimbal"
+               width="900" height="985" loading="lazy" decoding="async">
+        </figure>
+        <div class="camera__text">
+          <p class="label" data-reveal>07 — Behind the lens</p>
+          <h2 class="display display--sm" id="camTitle" data-split>Filmmaking &amp; camera work</h2>
+          <p data-reveal>On set I work with a cinema camera on a handheld gimbal rig, building shots that move with intention. Stabilised, composed and designed for the edit — every take is planned with the final frame in mind.</p>
+          <ul class="camera__list" data-reveal>
+            <li>Cinema camera &amp; gimbal setup</li>
+            <li>Handheld cinematic movement</li>
+            <li>On-location videography</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INTERESTS + LANGUAGES ============ -->
+    <section class="section" id="more" aria-label="Interests and languages">
+      <div class="wrap more">
+        <div>
+          <p class="label" data-reveal>08 — Interests</p>
+          <ul class="bigList" id="hobbies">
+            <li data-reveal>Traveling</li>
+            <li data-reveal>Football</li>
+            <li data-reveal>Gaming</li>
+          </ul>
+        </div>
+        <div>
+          <p class="label" data-reveal>09 — Languages</p>
+          <ul class="bigList bigList--lang" id="languages">
+            <li data-reveal>English</li>
+            <li data-reveal>Malayalam</li>
+            <li data-reveal>Hindi</li>
+            <li data-reveal>Tamil</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contactTitle">
+      <div class="wrap">
+        <p class="label" data-reveal>10 — Contact</p>
+        <h2 class="display display--xl" id="contactTitle" data-split>Let’s create something cinematic.</h2>
+        <p class="contact__intro" data-reveal>Have a project in mind — a design, an edit, a visual effects shot or a film? I’d love to hear about it.</p>
+        <ul class="contact__links" id="contactLinks"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <p class="footer__name">AMEEN PASHA</p>
+        <p class="footer__role">Graphic Designer &amp; VFX Artist</p>
+        <p class="footer__role">Visual Creative</p>
+      </div>
+      <ul class="footer__social" id="footerSocial"></ul>
+      <p class="footer__copy">© <span id="year">2026</span> Ameen Pasha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project preview" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Close preview">Close ✕</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption>
+        <span id="lbCat"></span>
+        <strong id="lbTitle"></strong>
+        <em id="lbDesc"></em>
+      </figcaption>
+    </figure>
+    <div class="lightbox__nav">
+      <button id="lbPrev" aria-label="Previous project">← Prev</button>
+      <button id="lbNext" aria-label="Next project">Next →</button>
+    </div>
+  </div>
+
+  <noscript><style>.stage{height:auto!important}.world{position:static!important;opacity:1!important}</style></noscript>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/sand.js"></script>
+  <script src="js/ambient.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
